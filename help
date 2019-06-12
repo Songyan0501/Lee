@@ -1,0 +1,2 @@
+docker build -t web-test:39000 .
+docker run -d -p 39000:8080 web-test:39000
